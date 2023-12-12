@@ -5,10 +5,13 @@ const mysql = require('mysql');
 const app = express();
 const port = 3000;
 
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('public'));
+
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'your_mysql_username',
-    password: 'your_mysql_password',
+    user: 'root',
+    password: '',
     database: 'nodejs_form'
 });
 
