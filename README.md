@@ -10,8 +10,11 @@
     .   npm install express body-parser mysql
 
 4. Create index.js
+
 5. Create public/index.html
+
 6. Create public/style.css
+
 7. Install and Start XAMPP
     .   Download and install XAMPP from https://www.apachefriends.org/index.html.
     .   Start XAMPP and ensure both Apache and MySQL are running.
